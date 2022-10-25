@@ -1,0 +1,54 @@
+:root {
+    --color2: #e9e9f1;
+    --color1: #334166;
+}
+
+.page {
+    color: var(--color1) !important;
+    background-color: var(--color2) !important;
+}
+
+.first-color {
+    background-color: var(--color1) !important;
+    color: var(--color2) !important;
+}
+
+.second-color {
+    color: var(--color1) !important;
+    background-color: var(--color2) !important;
+}
+
+.tab {
+    width: 33%;
+    text-align: center
+}
+
+.shadow {
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.5)
+}
+
+.home-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-box {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 150px;
+}
+
+.myDatePicker {   
+    width: 8rem;
+}
+
+.highlight {
+    background-color:darkturquoise !important;
+}
+
+.form_required {
+    color: red;
+    font-size: smaller;
+    font-weight: light;
+}
